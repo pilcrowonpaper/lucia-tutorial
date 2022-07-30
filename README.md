@@ -1,5 +1,7 @@
 # Lucia tutorial
 
+`lucia-sveltekit` version: v0.5.0
+
 Video: https://www.youtube.com/watch?v=Y98KipzwVdM
 
 Documentation: https://lucia-sveltekit.vercel.app
