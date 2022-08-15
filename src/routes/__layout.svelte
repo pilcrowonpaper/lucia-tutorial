@@ -1,19 +1,13 @@
 <script lang="ts">
 	import '../app.css';
-    import { autoRefreshTokens } from "lucia-sveltekit/client"
+    import { Lucia } from "lucia-sveltekit/client"
     import { session } from "$app/stores"
-    import { onDestroy } from "svelte"
-
-    const unsubscribe = autoRefreshTokens(session, (e) => {
-        console.log(e)
-    })
-
-    onDestroy(() => {
-        unsubscribe()
-    })
 </script>
 
-<slot />
+<Lucia {session} on:error={(e) => {console.error(e)}}>
+	<slot />
+</Lucia>
+
 
 <style lang="postcss">
 	:global(body) {
