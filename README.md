@@ -1,5 +1,7 @@
 # Lucia tutorial
 
+**There were numerous updates since this repo and tutorial was created. All links here are outdated. Please refer to [the new repo](https://github.com/pilcrowOnPaper/lucia-sveltekit) for docs, guides, and examples**
+
 `lucia-sveltekit` version: v0.6.2
 
 Video: https://www.youtube.com/watch?v=Y98KipzwVdM
